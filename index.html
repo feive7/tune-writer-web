@@ -1,0 +1,14 @@
+<html>
+    <header>
+        <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
+        <script src="https://unpkg.com/brain.js@2.0.0-beta.24/dist/browser.js"></script>
+        <script src="https://unpkg.com/tone"></script>
+        <link rel="stylesheet" href="main.css">
+    </header>
+    <body>
+        <textarea id="input-box" onkeyup="update(this.value)">bass 4/4 E3 | E3 E3 D#3 B2 | E3 B2 C3 G2 | C3 B2 E3 C3 | B2</textarea><br>
+        <button onclick="playback()">Play</button>
+        <div id="output-box"></div>
+        <script src="main.js"></script>
+    </body>
+</html>
